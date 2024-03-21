@@ -48,12 +48,13 @@ Ensure that you have Node.js and npm installed on your machine. Additionally, Mo
 
 ## Usage
 
-### Auth Endpoint
+#### Signup
 
-To generate a valid auth token, send a POST request to `/api/auth/login` with the following JSON payload:
+To create a new user, send a POST request to `/api/auth/signup` with the following JSON payload:
 
 ```json
 {
   "username": "your_username",
   "password": "your_password"
 }
+
