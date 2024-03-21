@@ -52,31 +52,21 @@ Ensure that you have Node.js and npm installed on your machine. Additionally, Mo
 
 #### Signup
 
-To create a new user, send a POST request to `/api/auth/signup` with the following JSON payload:
-
-```json
-{
-  "username": "your_username",
-  "password": "your_password"
-}
-
-
-
-#### Signup
-
 To authenticate login in, send a POST request to `/api/auth/login` with the following JSON payload:
-
+```
 ```json
 {
   "username": "your_username",
   "password": "your_password"
 }
-
+```
 
 #### get country details by countryName 
+
 Send a GET Request  on "http://localhost:8080//country/:bharat"  where user can found out the details about the specific country 
 and to authenticate this add the token which you get in the response during login  put in the authrization then only you will recieve the response 
 
+```
 ```json
 {
     "name": "India",
@@ -90,12 +80,13 @@ and to authenticate this add the token which you get in the response during logi
         "Tamil"
     ]
 }
-
+```
 
 #### get country list  by applying the filter  such as currency language, region  
 Send a GET Request  on "http://localhost:8080//country/:bharat"  where user can found out the details about the  countries list with some if the details
 and to authenticate this add the token which you get in the response during login  put in the authrization then only you will recieve the response 
 
+```
 ```json
 [
     {
@@ -114,9 +105,9 @@ and to authenticate this add the token which you get in the response during logi
         ],
         "population": 38718
     },
-   
+   ...
 ]
-
+```
 
 
 
