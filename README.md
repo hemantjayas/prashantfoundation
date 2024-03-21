@@ -54,7 +54,6 @@ Ensure that you have Node.js and npm installed on your machine. Additionally, Mo
 
 To authenticate login in, send a POST request to `/api/auth/login` with the following JSON payload:
 ```
-```json
 {
   "username": "your_username",
   "password": "your_password"
@@ -67,7 +66,6 @@ Send a GET Request  on "http://localhost:8080//country/:bharat"  where user can 
 and to authenticate this add the token which you get in the response during login  put in the authrization then only you will recieve the response 
 
 ```
-```json
 {
     "name": "India",
     "capital": [
@@ -87,7 +85,6 @@ Send a GET Request  on "http://localhost:8080/user/countries?currency=USD&region
 and to authenticate this add the token which you get in the response during login  put in the authrization then only you will recieve the response 
 
 ```
-```json
 [
     {
         "name": "United States Minor Outlying Islands",
