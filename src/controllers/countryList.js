@@ -4,7 +4,7 @@ const axios = require('axios');
 // Function to fetch country list based on currency, region, or language with pagination
 const getCountryList = async (req, res) => {
   const { currency, region, language, page = 1 } = req.query;
-  const pageSize = 10; // Number of countries per page
+  const pageSize = 5; // Number of countries per page
   const offset = (page - 1) * pageSize;
 
   try {
