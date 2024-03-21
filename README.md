@@ -13,13 +13,13 @@ Ensure that you have Node.js and npm installed on your machine. Additionally, Mo
 1. Clone the repository:
 
     ```
-    git clone <repository_url>
+    git clone https://github.com/hemantjayas/prashantfoundation
     ```
 
 2. Navigate to the project directory:
 
     ```
-    cd country-api
+    cd prashantfoundation
     ```
 
 3. Install dependencies:
