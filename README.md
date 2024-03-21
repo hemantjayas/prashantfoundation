@@ -83,7 +83,7 @@ and to authenticate this add the token which you get in the response during logi
 ```
 
 #### get country list  by applying the filter  such as currency language, region  
-Send a GET Request  on "http://localhost:8080//country/:bharat"  where user can found out the details about the  countries list with some if the details
+Send a GET Request  on "http://localhost:8080/user/countries?currency=USD&region=Europe&language=English&page=2"  where user can found out the details about the  countries list with some if the details
 and to authenticate this add the token which you get in the response during login  put in the authrization then only you will recieve the response 
 
 ```
