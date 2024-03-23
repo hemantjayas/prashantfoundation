@@ -3,6 +3,10 @@ const express = require('express');
 const connectDB = require('../prashantfoundation/src/configs/db');
 const userRouter = require("../prashantfoundation/src/routes/userRoutes")
 
+
+// port and the database string for storing the user data 
+const MONGOURL = `mongodb+srv://hemant:hemant123@cluster0.jhbytda.mongodb.net/`
+PORT = 8080
 // Initialize Express app
 const app = express();
 
@@ -13,8 +17,6 @@ app.use(express.json());
 app.use('/user', userRouter);
 
 // Start server and connect to MongoDB
-const PORT = process.env.PORT || 8080;
-const MONGOURL = process.env.MONGOURL;
 app.listen(PORT, async () => {
     try {
         await connectDB(MONGOURL);

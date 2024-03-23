@@ -28,17 +28,9 @@ Ensure that you have Node.js and npm installed on your machine. Additionally, Mo
     npm install
     ```
 
-4. Create a `.env` file in the root directory and add the following environment variables:
-
-    ```
-    PORT=8080
-    MONGODB_URI=<your_mongodb_uri>
-    JWT_SECRET=<your_secret_key>
-    ```
-
     Replace `<your_mongodb_uri>` with the URI for your MongoDB database, and `<your_secret_key>` with a secret key for JWT token generation.
 
-5. Start the server:
+4. Start the server:
 
     ```
     npm start
